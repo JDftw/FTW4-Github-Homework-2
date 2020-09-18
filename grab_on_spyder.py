@@ -11,8 +11,6 @@ df = pd.read_csv('DataSeerGrabPrizeData.csv')
 
 df.describe()
 
-df.dropna()
+df = df.dropna()
 
 df.describe()
-
-df.to_csv('grab_on_spyder.csv', index=False)
