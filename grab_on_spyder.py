@@ -14,3 +14,5 @@ df.describe()
 df = df.dropna()
 
 df.describe()
+
+df.to_csv('grab_on_spyder.csv', index=False)
